@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                // modern JS kimenet
+    "module": "CommonJS",                // szükséges az import/export-hoz
+    "moduleResolution": "node",        // node_modules feloldás
+    "outDir": "./dist",                // fordítási kimenet
+    "rootDir": "./src",                // TS forrásmappa
+    "strict": true,                    // teljes szigor, jó hibatípusok
+    "esModuleInterop": true,           // lehetővé teszi a default importot
+    "skipLibCheck": true               // gyorsítja a buildet
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
